@@ -3,6 +3,20 @@
 This is a generic middleware pipeline that can be used to create a pipeline of
 middleware functions that can be used to process a request and response.
 
+It is purely an example project.
+
+## Installation
+
+This project is managed with [poetry](https://python-poetry.org/)
+
+```bash
+poetry install # install pytest
+
+poetry run pytest # run tests
+```
+
+## About the middleware pipeline
+
 Each middleware function will receive three parameters:
 
 - `req`: The request object, which may be mutated by the middleware function
